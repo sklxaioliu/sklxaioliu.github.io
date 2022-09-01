@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>woqu</title>
+      <link href="/2022/09/01/ChuXueLinux/"/>
+      <url>/2022/09/01/ChuXueLinux/</url>
+      
+        <content type="html"><![CDATA[<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">如何给虚拟机中的linux设置外网</span><br></pre></td></tr></table></figure><p><code><pre><br>1.需要检查windows系统中网络-更改适配器设置-保障vmnet8是已启用模式<br>2.打开虚拟机-编辑-虚拟网络编辑器-选择vmnet8-设置子网ip-点击net设置-设置网关-点击确定<br>3.去linux系统终端里面使用终端敲命令-首先需要切换root用户才有权限更改网关信息<br>4.输入vi /ect/sysconfig/network-scripts/ifcfg-ens33<br><img src="/images/linux1.jpg" width="400" height="200"  ><br>6.按一下i 才能编辑 编制好之后按ecs退出编辑模式 在按下：wq！回车保存成功<br>7.重启网络 systemctl restart network<br>8.ifconfig里面查看ip<br>9.验证  在windows系统中可以ping一下设置的ip<br>10.最后一步，在虚拟机中点击虚拟机选项--网络适配器-添加网络适配器-选择nrt模式-确认即可</p><p></code></pre></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">什么是SecureCRT</span><br></pre></td></tr></table></figure><p><code><pre><br>SecureCRT是一款支持SSH的终端仿真程序（在windows的系统里面远程操作linux系统）<br>需要激活和配置<br>输入对应linux的静态ip 和用户名 以及密码<br>如果需要设置对应的字体大小颜色以及背景色 可以在options -session options-terminal-appearance里面设置<br></code></pre></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">CentOS文件和目录</span><br></pre></td></tr></table></figure><p><code><pre><br>1./      表示系统中的根目录<br>2.etc   系统中的配置文件<br>3.bin   系统预设执行文件的放置目录<br>4.sbin  系统预设执行文件的放置目录<br>5.user  系统预设执行文件的放置目录<br>6.var    var/long程序运行日志的存放目录</p><p></code></pre></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">怎么设置时间同步</span><br></pre></td></tr></table></figure><p><code><pre><br>1.打开虚拟机右键装好的虚拟机-选择设置-选项-点击vmware tools-选择将客户机时间与主机同步勾选-确定<br></code></pre></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">克隆与快照（系统备份）</span><br></pre></td></tr></table></figure><p><code><pre><br>1.什么是克隆<br>完全复制原来系统，当原系统不能正常使用时，克隆的系统可以正常使用（占用空间较大）<br>2.怎么克隆<br>打开虚拟机右键装好的虚拟机-选择管理-克隆-需要将原来系统关机-选择安装位置即可<br><br><br>3.什么事快照<br>相当于给原先系统当时的状态拍了一张照片，如果原来系统崩溃是不能单独使用的（占用空间小）<br>4.怎么拍摄和还原快照<br>打开虚拟机右键装好的虚拟机-选择快照-拍摄快照-取快照的名字（最好跟上时间和描述）<br>.打开虚拟机右键装好的虚拟机-选择快照-快照管理器-选择需要恢复的快照-转到-确认恢复即可<br></code></pre></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">系统与设置命令</span><br></pre></td></tr></table></figure><p><code><pre><br>1.账号管理（需要管理员的权限 root）<br>useradd  用户名  （创建用户）<br>passwd   用户名  （用户密码，不能低于8位，不能是回文）<br>usermod 用户名  （修改用户，一般是usermod -l 修改后的名字 原来的名字）<br>userdel   用户名  （删除用户，一般是userdel -r -f 需要删除的用户名 [-r是删除主目录和邮件池][-f 是强制删除]）<br><br><br>2.用户组（需要管理员的权限 root）<br>groupadd  用户组名   创建用户组<br>groupmod 用户组名   修改用户组（一般是groupmod -n 新名称  旧名称      [-n是改名为新的用户名]）<br>groups       用户名      查询用户所在组<br>groupdel   用户组名   删除用户组<br><br><br>3.管理用户组内成员<br>gpasswd  组名（gpasswd是linux下的管理工具，用于将一个用户添加到组或者从组中删除）<br><br><br>-a  添加用户到组（语法是 gpasswd -a 需要添加的用户名   用户组）<br>如果需要查看组中的用户可使用（grep ‘需要查看的组’/etc/group）<br>-d  从指定租删除用户<br>-A  指定管理员<br>-M 指定组成员和-A的用途差不多<br>-r   删除密码<br>-R  限制用户登入组，只有组中的成员才可以用newgrp加入组<br><br><br>4.日期管理（date）<br>-d<字符串>：显示字符串所指的日期和时间。字符串前后必须加上双引号；<br>-s<字符串>：（需要管理员权限）根据字符来设置日期和时间。字符串前后必须加上双引号；<br>-u ：显示GMT;（英国格林威治的时间，北京时间是CST）<br>-longname:   显示登录账号信息<br>--help  :在线帮助<br>--version  ：显示版本信息<br><br><br>5.用户切换  su命令<br>su -c ls root   （意思是先切换到root用户执行ls命令 再回到原先用户）<br>6.id （查看当前用户的详细信息）<br><br><br>7.sudo  （提升用户权限）<br><br><br>8.top （显示linux实时进程状态）<br>top-c    实现显示所有进程信息（显示完整命令）<br>top-p   pid     实时显示指定的进程信息<br>结束监控快捷键  q<br><br><br>9.ps     查看进程信息（显示当前系统正在运行的进程信息）<br>ps-A展示所有的进程信息<br>ps-ef 比ps-A展示的进程信息更加全面<br>ps-u  可以查看指定用户的进程信息<br><br><br>10.kill命令（杀死进程）<br>kill 进程的pid  （杀死指定pid的进程）<br>kill -9 进程pid   （强制指定pid的进程）<br>killall -u 用户名 （杀死指定用户所有的进程）<br><br><br>11.shutdown 关机命令（需要管理员权限一般是一分钟后关机）<br>shutdown -c  取消关机<br>shutdown -h  now  立即关机<br>shutdown +1 “一分钟之后关机”<br>shutdown -r +1  “一分钟之后关机并重启”<br><br><br>11.reboot  立马重启命令<br><br><br>12.who 命令  （查看那些人还在登录系统）<br>who -H   显示明细<br>13.timedatectl  校正服务器时间、时区<br>timedatectl list-timezone （查看所有可用时区 结束按q）<br>timedatectl set-timezone  “Asia/Shanghai”（设置时区[上海]）<br>timedatectl set-ntp true  （电脑连网之后会自动同步服务器时间）<br>14.clear 清除命令（其实是把其他的数据顶到上面去）<br><br><br><br><br>15.目录管理命令<br>ls               列出目录<br>ls -a           显示所有文件和目录（包含隐藏文件）<br>ls -d           仅列出目录本身，而不是列出目录内的文件数据（常用）<br>ls -l            长串数据列出，包含文件的属性与权限等等数据（常用）<br>-a -l 可以一起使用  即-al       显示所有文件的详细信息<br><br><br>cd              切换目录<br>pwd           显示当前目录<br>mkdir         创建新目录<br>rmdir          删除空目录<br>cp               复制文件或目录<br>rm              删除文件或目录<br>mv              移动文件或目录以及修改文件或目录名字<br></code></pre></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工作 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 工作 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>实施第二站—上海优层智能</title>
       <link href="/2022/08/12/youceng/"/>
       <url>/2022/08/12/youceng/</url>
