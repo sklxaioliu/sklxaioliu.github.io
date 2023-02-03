@@ -4,6 +4,56 @@
   
     
     <entry>
+      <title>Word</title>
+      <link href="/2023/01/06/Word/"/>
+      <url>/2023/01/06/Word/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 工作 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 工作 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>系统重装</title>
+      <link href="/2023/01/06/%E7%B3%BB%E7%BB%9F%E9%87%8D%E8%A3%85/"/>
+      <url>/2023/01/06/%E7%B3%BB%E7%BB%9F%E9%87%8D%E8%A3%85/</url>
+      
+        <content type="html"><![CDATA[<p>基础篇</p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">蔸藜的系统重装笔记</span><br></pre></td></tr></table></figure><h3 id="下载系统"><a href="#下载系统" class="headerlink" title="下载系统"></a>下载系统</h3><ul><li>浏览器搜索MSDN我告诉你，选择需要下载的系统</li><li><a href="https://msdn.itellyou.cn/">https://msdn.itellyou.cn/</a></li></ul><h3 id="制作启动盘"><a href="#制作启动盘" class="headerlink" title="制作启动盘"></a>制作启动盘</h3><ul><li>选择一个大于8GB的U盘</li><li>打开微PE工具官网 <a href="https://www.wepe.com.cn/">https://www.wepe.com.cn/</a></li><li>下载后选择安装位置为U盘，等待微PE软件将U盘制作成启动盘</li><li>将之前下载好的系统镜像拷贝到U盘，启动盘制作完成</li></ul><h4 id="安装系统"><a href="#安装系统" class="headerlink" title="安装系统"></a>安装系统</h4><ul><li>将U盘插入至USB 3.0 接口后</li><li>按下主机开机键</li><li>根据主机品牌按下启动项快捷键</li><li>引导设备选择启动U盘</li><li>点击分区工具选择分区</li><li>选择需要分区的硬盘，点击快速分区</li><li>分区表类型，根据CPU型号来进行选择，10代以前选择MBR，10代及以后选择GUID</li><li>系统空间一般占用30G，临时文件和系统垃圾也会占用，一般c盘分50G以上才够</li><li>分区完成后，其他选项不需要改动，只有对齐分区到此扇区数的整数倍勾选</li><li>将原来的整数倍改成4096扇区，这是一个硬盘的4k对齐，可以让硬盘速度更快</li><li>点击桌面上的Windows安装器，选择镜像后选择系统安装的位置，就是分区好的c盘</li><li>选择安装的版本后，点击安装确定，重启电脑即可</li><li>拔出U盘，重装系统完成</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工作 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 工作 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>SqlServer资料</title>
       <link href="/2022/12/12/SqlServer%E8%B5%84%E6%96%99/"/>
       <url>/2022/12/12/SqlServer%E8%B5%84%E6%96%99/</url>
