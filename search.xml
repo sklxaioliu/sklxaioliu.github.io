@@ -29,11 +29,11 @@
     
     
     <entry>
-      <title>湖南湛联</title>
-      <link href="/2023/01/06/%E6%9D%AD%E5%B7%9E%E6%B9%9B%E8%81%94/"/>
-      <url>/2023/01/06/%E6%9D%AD%E5%B7%9E%E6%B9%9B%E8%81%94/</url>
+      <title>系统重装</title>
+      <link href="/2023/01/06/%E7%B3%BB%E7%BB%9F%E9%87%8D%E8%A3%85/"/>
+      <url>/2023/01/06/%E7%B3%BB%E7%BB%9F%E9%87%8D%E8%A3%85/</url>
       
-        <content type="html"><![CDATA[<h2 id="账号密码"><a href="#账号密码" class="headerlink" title="账号密码"></a>账号密码</h2><ul><li><p>企业端  账号：91430103MA4RKHKG28     密码：Hangzhouzhanlian1312@</p></li><li><p>政府端  账号：13000000001            密码：Zl1q2w3e$R     验证码：518888</p></li></ul><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">望城金融机构操作手册： https://kdocs.cn/l/caSPzPAxwuEy</span><br><span class="line">望城企业端操作手册  :  https://kdocs.cn/l/cm0LCVa0bXJp</span><br></pre></td></tr></table></figure><h3 id="好好加油，总有一天你会发光！！！"><a href="#好好加油，总有一天你会发光！！！" class="headerlink" title="好好加油，总有一天你会发光！！！"></a>好好加油，总有一天你会发光！！！</h3>]]></content>
+        <content type="html"><![CDATA[<p>基础篇</p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">蔸藜的系统重装笔记</span><br></pre></td></tr></table></figure><h3 id="下载系统"><a href="#下载系统" class="headerlink" title="下载系统"></a>下载系统</h3><ul><li>浏览器搜索MSDN我告诉你，选择需要下载的系统</li><li><a href="https://msdn.itellyou.cn/">https://msdn.itellyou.cn/</a></li></ul><h3 id="制作启动盘"><a href="#制作启动盘" class="headerlink" title="制作启动盘"></a>制作启动盘</h3><ul><li>选择一个大于8GB的U盘</li><li>打开微PE工具官网 <a href="https://www.wepe.com.cn/">https://www.wepe.com.cn/</a></li><li>下载后选择安装位置为U盘，等待微PE软件将U盘制作成启动盘</li><li>将之前下载好的系统镜像拷贝到U盘，启动盘制作完成</li></ul><h4 id="安装系统"><a href="#安装系统" class="headerlink" title="安装系统"></a>安装系统</h4><ul><li>将U盘插入至USB 3.0 接口后</li><li>按下主机开机键</li><li>根据主机品牌按下启动项快捷键</li><li>引导设备选择启动U盘</li><li>点击分区工具选择分区</li><li>选择需要分区的硬盘，点击快速分区</li><li>分区表类型，根据CPU型号来进行选择，10代以前选择MBR，10代及以后选择GUID</li><li>系统空间一般占用30G，临时文件和系统垃圾也会占用，一般c盘分50G以上才够</li><li>分区完成后，其他选项不需要改动，只有对齐分区到此扇区数的整数倍勾选</li><li>将原来的整数倍改成4096扇区，这是一个硬盘的4k对齐，可以让硬盘速度更快</li><li>点击桌面上的Windows安装器，选择镜像后选择系统安装的位置，就是分区好的c盘</li><li>选择安装的版本后，点击安装确定，重启电脑即可</li><li>拔出U盘，重装系统完成</li></ul>]]></content>
       
       
       <categories>
@@ -54,11 +54,11 @@
     
     
     <entry>
-      <title>系统重装</title>
-      <link href="/2023/01/06/%E7%B3%BB%E7%BB%9F%E9%87%8D%E8%A3%85/"/>
-      <url>/2023/01/06/%E7%B3%BB%E7%BB%9F%E9%87%8D%E8%A3%85/</url>
+      <title>湖南湛联</title>
+      <link href="/2023/01/06/%E6%9D%AD%E5%B7%9E%E6%B9%9B%E8%81%94/"/>
+      <url>/2023/01/06/%E6%9D%AD%E5%B7%9E%E6%B9%9B%E8%81%94/</url>
       
-        <content type="html"><![CDATA[<p>基础篇</p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">蔸藜的系统重装笔记</span><br></pre></td></tr></table></figure><h3 id="下载系统"><a href="#下载系统" class="headerlink" title="下载系统"></a>下载系统</h3><ul><li>浏览器搜索MSDN我告诉你，选择需要下载的系统</li><li><a href="https://msdn.itellyou.cn/">https://msdn.itellyou.cn/</a></li></ul><h3 id="制作启动盘"><a href="#制作启动盘" class="headerlink" title="制作启动盘"></a>制作启动盘</h3><ul><li>选择一个大于8GB的U盘</li><li>打开微PE工具官网 <a href="https://www.wepe.com.cn/">https://www.wepe.com.cn/</a></li><li>下载后选择安装位置为U盘，等待微PE软件将U盘制作成启动盘</li><li>将之前下载好的系统镜像拷贝到U盘，启动盘制作完成</li></ul><h4 id="安装系统"><a href="#安装系统" class="headerlink" title="安装系统"></a>安装系统</h4><ul><li>将U盘插入至USB 3.0 接口后</li><li>按下主机开机键</li><li>根据主机品牌按下启动项快捷键</li><li>引导设备选择启动U盘</li><li>点击分区工具选择分区</li><li>选择需要分区的硬盘，点击快速分区</li><li>分区表类型，根据CPU型号来进行选择，10代以前选择MBR，10代及以后选择GUID</li><li>系统空间一般占用30G，临时文件和系统垃圾也会占用，一般c盘分50G以上才够</li><li>分区完成后，其他选项不需要改动，只有对齐分区到此扇区数的整数倍勾选</li><li>将原来的整数倍改成4096扇区，这是一个硬盘的4k对齐，可以让硬盘速度更快</li><li>点击桌面上的Windows安装器，选择镜像后选择系统安装的位置，就是分区好的c盘</li><li>选择安装的版本后，点击安装确定，重启电脑即可</li><li>拔出U盘，重装系统完成</li></ul>]]></content>
+        <content type="html"><![CDATA[<h1 id="长沙市金融服务平台"><a href="#长沙市金融服务平台" class="headerlink" title="长沙市金融服务平台"></a>长沙市金融服务平台</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">   长沙市信易贷频台的建设初衷，是面向中小微企业和金融机构，</span><br><span class="line">提供智能、精准、高效的线上“信易贷”服务，通过金融产品超市，向企业提供</span><br><span class="line">定向和非定向多种模式的融资服务，实现企业信易贷业务&quot;一站式&quot;申请，</span><br><span class="line">准入、放贷、风险跟踪和监测分析等应用</span><br></pre></td></tr></table></figure><h2 id="账号密码"><a href="#账号密码" class="headerlink" title="账号密码"></a>账号密码</h2><ul><li><p>企业端  账号：91430103MA4RKHKG28     密码：Hangzhouzhanlian1312@</p></li><li><p>政府端  账号：13000000001            密码：Zl1q2w3e$R     验证码：518888</p></li></ul><h2 id="操作手册"><a href="#操作手册" class="headerlink" title="操作手册"></a>操作手册</h2><p>望城金融机构操作手册： <a href="https://kdocs.cn/l/caSPzPAxwuEy">https://kdocs.cn/l/caSPzPAxwuEy</a><br>望城企业端操作手册  :  <a href="https://kdocs.cn/l/cm0LCVa0bXJp">https://kdocs.cn/l/cm0LCVa0bXJp</a></p><h2 id="金融服务平台注意点"><a href="#金融服务平台注意点" class="headerlink" title="金融服务平台注意点"></a>金融服务平台注意点</h2><h4 id="1-在进行政务一体化登录时，系统调用的接口是湖南一件事一次办登的接口，非平台操作"><a href="#1-在进行政务一体化登录时，系统调用的接口是湖南一件事一次办登的接口，非平台操作" class="headerlink" title="1. 在进行政务一体化登录时，系统调用的接口是湖南一件事一次办登的接口，非平台操作"></a>1. 在进行政务一体化登录时，系统调用的接口是湖南一件事一次办登的接口，非平台操作</h4><h4 id="2-金融机构入驻平台流程，湛联提交入驻表格给金融办—金融办—下发给支行或区县银行填写资料信息—返回湛联进行信息录入"><a href="#2-金融机构入驻平台流程，湛联提交入驻表格给金融办—金融办—下发给支行或区县银行填写资料信息—返回湛联进行信息录入" class="headerlink" title="2. 金融机构入驻平台流程，湛联提交入驻表格给金融办—金融办—下发给支行或区县银行填写资料信息—返回湛联进行信息录入"></a>2. 金融机构入驻平台流程，湛联提交入驻表格给金融办—金融办—下发给支行或区县银行填写资料信息—返回湛联进行信息录入</h4><h4 id="3-金融机构的登录可以在政府端进行，输入想要输送的手机号码后，初始密码为1q23e-R-验证码是518888"><a href="#3-金融机构的登录可以在政府端进行，输入想要输送的手机号码后，初始密码为1q23e-R-验证码是518888" class="headerlink" title="3. 金融机构的登录可以在政府端进行，输入想要输送的手机号码后，初始密码为1q23e$R 验证码是518888"></a>3. 金融机构的登录可以在政府端进行，输入想要输送的手机号码后，初始密码为1q23e$R 验证码是518888</h4>]]></content>
       
       
       <categories>
