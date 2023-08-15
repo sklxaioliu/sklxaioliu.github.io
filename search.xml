@@ -29,31 +29,6 @@
     
     
     <entry>
-      <title>湖南湛联</title>
-      <link href="/2023/01/06/%E6%9D%AD%E5%B7%9E%E6%B9%9B%E8%81%94/"/>
-      <url>/2023/01/06/%E6%9D%AD%E5%B7%9E%E6%B9%9B%E8%81%94/</url>
-      
-        <content type="html"><![CDATA[<h1 id="长沙市金融服务平台"><a href="#长沙市金融服务平台" class="headerlink" title="长沙市金融服务平台"></a>长沙市金融服务平台</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">   长沙市信易贷频台的建设初衷，是面向中小微企业和金融机构，提供智能、精准、高效的线上“信易贷”服务，通过金</span><br><span class="line">融产品超市，向企业提供定向和非定向多种模式的融资服务，实现企业信易贷业务&quot;一站式&quot;申请，准入、放贷、风险跟踪</span><br><span class="line">和监测分析等应用</span><br><span class="line"></span><br><span class="line">        企业端：    第一是发布自己的融资需求</span><br><span class="line">                       第二跟踪银行受理与审批进度、</span><br><span class="line">                           第三是管理自身信用档案信息等</span><br><span class="line"></span><br><span class="line">    金融机构端：    第一是对本金融机构的融资产品进行产品发布</span><br><span class="line">                       第二是对企业发布的融资需求订单进行受理</span><br><span class="line">                           第三是对融资办件进行一个审批处理</span><br><span class="line">                               第四查询企业信用档案，接收风险预警信息以及逾期贷款信息反馈</span><br><span class="line"></span><br><span class="line">        政府端：    第一指定和1发布信贷产品</span><br><span class="line">                       第二是统计授信规模，做好检测分析</span><br><span class="line">                           第三是将企业信用数据进行归集</span><br><span class="line">                               第四是对接国家、省、市平台互联互通等工作          </span><br><span class="line"> </span><br><span class="line"></span><br></pre></td></tr></table></figure><h3 id="操作手册"><a href="#操作手册" class="headerlink" title="操作手册"></a>操作手册</h3><ul><li><p>望城金融机构操作手册： <a href="https://kdocs.cn/l/caSPzPAxwuEy">https://kdocs.cn/l/caSPzPAxwuEy</a></p></li><li><p>望城企业端操作手册  :  <a href="https://kdocs.cn/l/cm0LCVa0bXJp">https://kdocs.cn/l/cm0LCVa0bXJp</a></p><h3 id="金融服务平台注意点"><a href="#金融服务平台注意点" class="headerlink" title="金融服务平台注意点"></a>金融服务平台注意点</h3></li><li><p>在进行政务一体化登录时，系统调用的接口是湖南一件事一次办登的接口，非平台操作</p></li><li><p>金融机构入驻平台流程，湛联提交入驻表格给金融办—金融办—下发给支行或区县银行填写资料信息—返回湛联进行信息录入</p></li><li><p>金融机构的登录可以在政府端进行，输入想要输送的手机号码后，初始密码为1q23e$R 验证码是518888</p></li><li><p>企业申请融资订单在已受理的情况下是不能进行订单取消的，只能通过联系银行进行拒贷</p><h3 id="订单流转过程"><a href="#订单流转过程" class="headerlink" title="订单流转过程"></a>订单流转过程</h3><img src="/images/融资订单流程图.jpg" width="600" height="450"  > <h3 id="抢单流转过程"><a href="#抢单流转过程" class="headerlink" title="抢单流转过程"></a>抢单流转过程</h3><img src="/images/抢单模式流程图.jpg" width="600" height="400" ></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> 工作 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 工作 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>系统重装</title>
       <link href="/2023/01/06/%E7%B3%BB%E7%BB%9F%E9%87%8D%E8%A3%85/"/>
       <url>/2023/01/06/%E7%B3%BB%E7%BB%9F%E9%87%8D%E8%A3%85/</url>
